@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>实践题 - 选项卡</title>
+    <style type="text/css">
+     /* CSS样式制作 */  
+		ul#nav{list-style-type:none;
+			margin:0 0 10px 0;padding:0;
+			float:left;
+			width:100%;}
+		ul#nav li{display: inline;
+			text-align: center;
+		}
+		ul#nav a{float:left;
+			font-weight:bold;
+			text-decoration: none;
+			width:4.78em;
+			color:antiquewhite;
+			background-color:orangered;
+			padding:0.2em 0.6em;
+			border-right:2px solid white;
+		}
+		ul#nav a:hover{background-color: darkorange;}
+		div.show{background-color: whitesmoke;
+			width:17.9em;
+			height: 5.5em;
+			position:absolute;
+			top:35px;
+			text-align: left;
+			padding-left: 4px;
+		}
+		div.show a{text-decoration: none;
+				 color: black;}
+		div.hide{display:none;}
+    </style>
+    <script type="text/javascript">
+        function ch(obj){
+			var gdiv = document.getElementsByTagName("div");
+			var gl = document.getElementsByTagName("a");
+			var num = obj.parentNode.className;
+			switch(num){
+				case "1":
+				gl[0].style.backgroundColor="red";
+				gl[1].removeAttribute("style");
+				gl[2].removeAttribute("style");
+				gdiv[0].className="show";
+				gdiv[1].className="hide";
+				gdiv[2].className="hide";
+				break;
+				case "2":
+				gl[1].style.backgroundColor="red";	
+				gl[0].removeAttribute("style");
+				gl[2].removeAttribute("style");
+				gdiv[0].className="hide";
+				gdiv[1].className="show";
+				gdiv[2].className="hide";
+				break;
+				case "3":
+				gl[2].style.backgroundColor="red";
+				gl[1].removeAttribute("style");
+				gl[0].removeAttribute("style");
+				gdiv[0].className="hide";
+				gdiv[1].className="hide";
+				gdiv[2].className="show";
+				break;
+			}
+				
+		}
+    
+    </script>
+ 
+</head>
+<body>
+<!-- HTML页面布局 -->
+<ul id="nav">
+<li class="1"><a href="#fc" onClick="ch(this);">房产</a></li>
+<li class="2"><a href="#jj" onClick="ch(this);">家居</a></li>
+<li class="3"><a href="#esf" onClick="ch(this);">二手房</a></li>
+</ul>
+<div class="hide">
+<a href="#">275万购昌平邻铁三居 总价20万买一居</a><br/>
+<a href="#">200万内购五环三居 140万安家东三环</a><br/>
+<a href="#">北京首现零首付楼盘 53万购东5环50平</a><br/>
+<a href="#">京楼盘直降5000 中信府 公园楼王现房</a>
+</div>
+<div class="hide">
+<a href="#">40平出租屋大改造美少女的混搭小窝</a><br/>
+<a href="#">经典清新简欧爱家 90平老房焕发新生</a><br/>
+<a href="#">新中式的酷色温情 66平撞色活泼家居</a><br/>
+<a href="#">瓷砖就像选好老婆 卫生间烟道的设计</a>
+</div>
+ <div class="show">
+<a href="#">通州豪华3居260万 二环稀缺2居250w甩</a><br/>
+<a href="#">西3环通透2居290万 130万2居限量抢购</a><br/>
+<a href="#">黄城根小学学区仅260万 121平70万抛!</a><br/>
+<a href="#">独家别墅280万 苏州桥2居优惠价248万</a>
+</div>
+</body>
+</html>
