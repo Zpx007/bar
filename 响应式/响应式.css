@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+#box *{
+	margin: 0.5%;
+}
+
+@media only screen and (min-width:769px){
+	
+.four{
+	border: 1px solid red;
+	height: 50px;
+	width: 30%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+
+.thr{
+	border: 1px solid red;
+	height: 50px;
+	width: 22%;
+	padding: 10px;
+	float:left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+
+.six{
+	border: 1px solid red;
+	height: 50px;
+	width: 46%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+
+.one{
+	border: 1px solid red;
+	height: 50px;
+	width: 5.5%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+.two{
+	border: 1px solid red;
+	height: 50px;
+	width: 14%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+}
+
+@media only screen and (max-width:768px){
+.s1{
+	border: 1px solid red;
+	height: 50px;
+	width: 40%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+
+.tl2{
+	border: 1px solid red;
+	height: 50px;
+	width: 80%;
+	padding: 10px;
+	float:left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+
+.th3{
+	border: 1px solid red;
+	height: 50px;
+	width: 20%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+
+.s3{
+	border: 1px solid red;
+	height: 50px;
+	width: 40%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+.t4{
+	border: 1px solid red;
+	height: 50px;
+	width: 10%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+	.e4{
+	border: 1px solid red;
+	height: 50px;
+	width: 60%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+	.th5{
+	border: 1px solid red;
+	height: 50px;
+	width: 20%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color:red;
+}
+}
+	
