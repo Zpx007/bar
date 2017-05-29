@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+ *{
+	 margin:0;
+	 padding:0;
+	 font-family: "microsoft yahei";
+}
+.top{
+	background-color: #2189bf;
+	height: 55px;
+	position: relative;
+}
+
+.logo{
+	position: absolute;
+	background-color: white;
+	height: 35px;
+	width: 35px;
+	left:100px;
+	top: 10px;
+}
+
+.logo2{
+	position: absolute;
+	background-color: #2189bf;
+	height: 17px;
+	width: 17px;
+	top:18px;
+	left: 18px;
+}
+
+.logo3{
+	position: absolute;
+	background-color: white;
+	height: 15px;
+	width: 15px;
+	top:20px;
+	left: 20px;
+}
+
+.search{
+	position: absolute;
+	float: right;
+	height: 55px;
+	width: 400px;
+	right: 150px;
+}
+
+.inp{
+	position: absolute;
+	float: left;
+	padding-left: 25px;
+	height: 25px;
+	width: 275px;
+	top: 12px;
+	border-radius: 25px;
+	border: 1px solid white;
+	background: url(img/fangdaj.png) no-repeat;
+	background-color: white;
+	outline-style: none;
+}
+
+.login{
+	position: absolute;
+	background: url(img/people.png)no-repeat;
+	height: 50px;
+	width: 50px;
+	right: 35px;
+	top: 14px;
+}
+
+.lg{
+	position: absolute;	
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	float: right;
+	line-height: 52px;
+	right:38px;
+}
