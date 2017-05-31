@@ -1,22 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
- *{
+ *{	
 	 margin:0;
 	 padding:0;
 	 font-family: "microsoft yahei";
+}
+
+a{
+	color: #666;
+	text-decoration: none;
 }
 .top{
 	background-color: #2189bf;
 	height: 55px;
 	position: relative;
-}
+}	
 
 .logo{
 	position: absolute;
 	background-color: white;
 	height: 35px;
 	width: 35px;
-	left:100px;
+	left:60px;
 	top: 10px;
 }
 
@@ -77,4 +82,111 @@
 	float: right;
 	line-height: 52px;
 	right:38px;
+}
+
+.left{
+	width: 250px;
+	height: 1200px;
+	background-color: #2A2E3D;
+}
+
+.personal-info{
+	height: 150px;
+	position: relative;
+}
+.personal-info-photo{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	background-color:#b9babd;
+	top:26px;
+	left:51px;
+}
+
+
+.personal-info-circle{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	top:20px;
+	left:45px;
+	border: 1px solid #b9babd;
+}
+
+.personal-info-photo span{
+	color: #b9babd;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 60px;
+}
+
+.personal-info-num{
+	padding-top: 90px;
+	padding-left: 55px;
+}
+
+.personal-info-num a{
+	color: #6e8095;
+}
+
+.personal-info-num ul{
+	float: left;
+	list-style: none;
+	color: #6e8095;
+	padding: 0 30px 0 0;
+	margin: 0 30px 0 0;
+}
+
+.personal-info-num .line{
+	border-right: 2px solid #313545;
+	}
+
+.personal-info-num .x{
+	font-size: 12px;
+	padding-left: 2px; 
+	}
+
+.personal-info .n:hover{
+	color: #E7421C;
+	}
+
+.left-expand{
+	height: 184px;
+	background-color: #383d4e;
+	padding: 16px 0;
+	color: #6e8095;
+}
+
+.left-expand dt{
+	color: white;	
+}
+
+.left-expand dl{
+	font-size: 12px;
+	padding-left: 70px;
+}
+
+.left-expand dd{
+	font-size: 12px;
+	padding: 16px 0 0 33px;
+}
+
+.left-expand .ss{
+	color: white;
+}
+
+.left-expand .sl{
+	padding-left:50px;
+}
+
+.left-not-expand{
+	padding-top: 30px;
+}
+
+.left-not-expand li{
+	font-size: 12px;
+	padding: 0 0 40px 103px;
+	color: white;
 }
